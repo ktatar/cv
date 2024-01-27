@@ -9,7 +9,7 @@ jobs:
       - name: pdflatex main
         uses: dante-ev/latex-action@latest
         with:
-          root_file: main.tex
+          root_file: kivanctatar_cv.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
       - name: bibtex main
@@ -21,6 +21,6 @@ jobs:
       - name: pdflatex main
         uses: dante-ev/latex-action@latest
         with:
-          root_file: main.tex
+          root_file: kivanctatar_cv.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
